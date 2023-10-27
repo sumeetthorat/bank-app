@@ -1,25 +1,3 @@
-'''
-x = 10 #Global Var
-
-def fun1():
-    y = 20 #Local Var
-    print("Inside fun1, locally x=", x)
-    print("Inside fun1, locally y=", y)
-    #print("Inside fun1, locally z=", z)
-
-def fun2():
-    z = 30 #Local Var
-    print("Inside fun2, locally x=", x)
-    print("Inside fun2, locally z=", z)
-    #print("Inside fun1, locally y=", y)
-
-fun1()
-fun2()
-print("Globally, x=", x)
-#print("Globally, y=", y)
-#print("Globally, z=", z)
-'''
-
 balance = 0
 def check_balance():
     print("Total Balance:", balance)
